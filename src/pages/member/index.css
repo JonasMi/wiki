@@ -1,0 +1,40 @@
+.mInfoTitle{
+    height:20px;
+    font-size: 14px;
+    font-weight: 600;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 200px;
+}
+.mInfoContent{
+    height:20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #999;
+    width: 200px;
+}
+
+.mInfoDesc{
+    height:20px;
+    width: 200px;
+}
+.memberCard{
+    border: 1px solid #d9d9d940;
+    border-radius: 10px;
+    width: 450px;
+    display: inline-block;
+    margin-top: 16px;
+    margin-left: 8px;
+    height: 376px;
+}
+
+#uploadDiv:focus{
+    border-color: #46a6ff;
+}
+#uploadDiv{
+    border: 1px dashed #d9d9d9;
+    padding-top: 4px;
+    padding-left: 4px;
+}
